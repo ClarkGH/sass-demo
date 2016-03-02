@@ -1,5 +1,6 @@
 $red: #FF0000;
 $blue: #00FF00;
+$gree: #00FF00;
 
 .red {
   color: $red;
@@ -8,3 +9,16 @@ $blue: #00FF00;
 .blue {
   color: $blue;
 }
+
+.green {
+  @if 1 + 1 == 2 {
+    color: $green;
+  }
+  @if 5 < 3 {
+    color: $red;
+  }
+  @if null {
+    color: $blue;
+  }
+}
+

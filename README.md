@@ -18,3 +18,4 @@ This is a very simple application using Node.js, Express, Jade, Gulp, and Sass.
 2. Running gulp will create an automated listener that will save to public/styles/main.css whenever you save the sass file
 3. This all runs off of jade inside the views folder.
 4. The gulp listener lives inside the Gulpfile.js
+5. See the sass file for some simple logic.
