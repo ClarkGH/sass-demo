@@ -1,0 +1,19 @@
+{
+  "name": "sass-demo",
+  "version": "1.0.0",
+  "description": "A Sass Demo for healthline",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clark Hinchcliff",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "jade": "^1.11.0",
+    "node-sass": "^3.4.2"
+  }
+}

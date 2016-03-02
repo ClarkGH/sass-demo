@@ -1,0 +1,24 @@
+$red: #FF0000;
+$blue: #0000FF;
+$green: #00FF00;
+
+.red {
+  color: $red;
+}
+
+.blue {
+  color: $blue;
+}
+
+.green {
+  @if 1 + 1 == 2 {
+    color: $green;
+  }
+  @if 5 < 3 {
+    color: $red;
+  }
+  @if null {
+    color: $blue;
+  }
+}
+
