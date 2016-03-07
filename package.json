@@ -9,11 +9,13 @@
   "author": "Clark Hinchcliff",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
     "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "jade": "^1.11.0",
+    "jquery": "^2.2.1",
     "node-sass": "^3.4.2"
   }
 }
